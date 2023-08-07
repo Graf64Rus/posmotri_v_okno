@@ -74,6 +74,7 @@ ol {
   width: 711px;
   height: 386px;
   object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -168,7 +169,7 @@ ol {
   width: 416px;
   align-items: flex-start;
   justify-content: center;
-  height: 534px;
+  
 }
 
 .title {
