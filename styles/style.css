@@ -165,7 +165,7 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 23px;
   width: 416px;
   align-items: flex-start;
   justify-content: center;
@@ -180,6 +180,7 @@ ol {
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
+ 
 }
 
 .content__accent {
@@ -197,12 +198,14 @@ ol {
 
 .content__list-item {
   margin-bottom: 30px;
+  display: block;
+  padding-left:1px;
 }
 
 .content__card-link {
   text-decoration: none;
   display: block;
-  padding: 2px;
+  margin: 3px;
 }
 
 .content__video-card {
@@ -216,6 +219,8 @@ ol {
   gap: 5px;
   display: flex;
   flex-direction: column;
+  padding-top: 6px;
+  padding-left: 2px;
 }
 
 .content__video-card-title {
@@ -276,6 +281,11 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
   margin: 1px;
 }
 
+.search-form__label:active{
+  text-decoration: none;
+  outline: none;
+}
+
 .search-form__label-text:hover {
   cursor: pointer;
   border-bottom: 1px solid white;
@@ -312,15 +322,19 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
   text-decoration: underline 1px solid white;
 }
 
-.content__card-link_current:focus-visible {
+.content__list-item:focus-visible {
   outline: 1px solid white;
   border-radius: 0;
 }
 
-.content__card-link_current:focus {
+.content__list-item:focus {
   outline: none;
 }
 
 .content__card-link_current {
+  background-color: #545050;
+}
+
+.content__card-link:active {
   background-color: #545050;
 }
