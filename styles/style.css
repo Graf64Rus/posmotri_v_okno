@@ -220,8 +220,8 @@ ol {
   gap: 5px;
   display: flex;
   flex-direction: column;
-  padding-top: 6px;
-  padding-left: 2px;
+  padding-top: 3px;
+  padding-left: 1px;
 }
 
 .content__video-card-title {
